@@ -25,9 +25,9 @@ ssh lpessol@13.68.152.53
 ```
 
 ## Criar novo par de chaves:
-####-t = tipo da sua chave
-####-b = número de bits da sua chave
-####-f = nome do arquivo que vamos armazenar a chave
+1. -t = tipo da sua chave
+2. -b = número de bits da sua chave
+3. -f = nome do arquivo que vamos armazenar a chave
 
 ```
 ssh-keygen -t rsa -b 2048 -f vm02
